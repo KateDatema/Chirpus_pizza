@@ -1,0 +1,41 @@
+body {
+    background-color: #c4d5d4;
+    margin: 40px 20px 80px 20px;
+    font-family: EB Garamond;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #F56A79;
+    padding-top: 3%;
+}
+
+table {
+    color: #002D40;
+    font-family: EB Garamond;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7%;
+    padding-top: 3%;
+}
+
+#food tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+
+#food tr:hover {background-color: #ddd;}
+
+#food th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 7px;
+  padding-right:7px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 10px;
+}

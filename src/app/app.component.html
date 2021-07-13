@@ -1,0 +1,21 @@
+<!-- Contains HTML taht renders when you run your application-->
+
+<h1> Welcome to Chirpus Pizza! </h1>
+
+<div>
+  <table id="food">
+    <tr>
+        <th>Name:</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Prices</th>
+    </tr>
+    <tr *ngFor="let MenuItems of food">
+        <td>{{MenuItems.name}}</td>
+        <td>{{MenuItems.description}}</td>
+        <td>{{MenuItems.category}}</td>
+        <td>{{MenuItems.price}}</td>
+      
+    </tr>
+  </table>
+</div>
